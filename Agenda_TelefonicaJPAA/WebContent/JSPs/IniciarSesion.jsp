@@ -17,7 +17,7 @@
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> 
 	
-<link href="/Agenda_TelefonicaJPAA/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/Agenda_TelefonicaJPAA/css/estilos.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>

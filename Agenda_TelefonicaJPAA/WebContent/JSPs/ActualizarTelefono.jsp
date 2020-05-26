@@ -34,10 +34,10 @@
 	href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
 	rel="stylesheet">
 <link
-	href="/Agenda_TelefonicaJPAA/css/index.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 <link
-	href="/Agenda_TelefonicaJPAA/css/agenda.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet"
@@ -46,7 +46,7 @@
 	crossorigin="anonymous">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<link href="../css/createAccount.css" rel="stylesheet" type="text/css" />
+<link href="../css/estilos.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<header>
@@ -66,8 +66,7 @@
 				<ul class="navbar-nav mr-auto"
 					style="margin-left: 35px; font-size: 22px">
 					<li class="active"><a
-						href="/Agenda_TelefonicaJPAA/JSPs/CuentaPrincipal.jsp">MI
-							PERFIL</a></li>
+						href="/Agenda_TelefonicaJPAA/JSPs/CuentaPrincipal.jsp">Inicio</a></li>
 				</ul>
 				<!-- Search form -->
 				<form class=" col-xs-8 col-sm-4 col-md-4 col-mg-4 mr-sm-4"
@@ -77,7 +76,7 @@
 						<li class=" col-xs-8 col-sm-4 col-md-4 col-mg-4 mr-sm-4"
 							class="btn  btn-block" style="font-size: 20px;"><a
 							href="/Agenda_TelefonicaJPAA/JSPs/BuscarContacto.jsp"
-							style="color: black">BUSCAR </a></li>
+							style="color: lightblue">BUSCAR </a></li>
 
 					</ul>
 				</form>
@@ -86,7 +85,7 @@
 				<form class=" nav navbar-nav nav-flex-icons ml-auto mr-sm-2">
 					<a
 						href="/Agenda_TelefonicaJPAA/ControladorSesion?salir=1"
-						class="btn  btn-block" style="color: black; font-size: 20px;"
+						class="active" style="color:; font-size: 20px;"
 						type="submit" name="accion" value="Salir"> CERRAR SESION </a>
 				</form>
 
@@ -124,7 +123,7 @@
 						<label for="telefono">Ingresar el Numero a Modificar:</label> <input
 							type="tel" placeholder="Ingresar Numero" name="telefono"
 							id="login-name" maxlength="10" value="${telefono.numero}"><input
-							class="btn btn-primary btn-large btn-block" type="submit"
+							class="busq" type="submit"
 							name="buscar" value="Buscar Telefono"
 							style="border-radius: 25px; margin-top: 33px;">
 						<p class="Gigan">${requestScope.datosTelefono}</p>
@@ -158,11 +157,11 @@
 						
 						<input type="tel" name="telPar" id="login-name" maxlength="10"
 							value="${telefono.numero}" style="visibility: hidden;"><input
-							class="btn btn-primary btn-large btn-block" type="submit"
+							class="botonesac1" type="submit"
 							name="buscarTelefono" value="Actualizar"
 							
 							style="border-radius: 25px; margin-top: 33px;"><input
-							class="btn btn-primary btn-large btn-block" type="submit"
+							class="botonesac" type="submit"
 							name="eliminar" value="Eliminar"
 							style="border-radius: 25px; margin-top: 33px;">
 					</form>
@@ -183,7 +182,7 @@
 											<tr class="row100 head">
 												<th scope="col" style="font-size: 20px;">Numero
 													Telefonico</th>
-												<th scope="col" style="font-size: 20px;">Tipo Telefono</th>
+												<th scope="col" style="font-size: 20px;">Tipo </th>
 												<th scope="col" style="font-size: 20px;">Operadora</th>
 												<th scope="col" style="font-size: 20px;">Acciones</th>
 											</tr>
@@ -205,7 +204,7 @@
 
 															<li style="font-size: 15px; color: red;"><a
 																href="/Agenda_TelefonicaJPAA/JSPs/ActualizarTelefono.jsp"
-																style="color: red">MODIFICAR INFORMACION PERSONAL</a></li>
+																style="color: red">Actualizar</a></li>
 
 
 														</ul>

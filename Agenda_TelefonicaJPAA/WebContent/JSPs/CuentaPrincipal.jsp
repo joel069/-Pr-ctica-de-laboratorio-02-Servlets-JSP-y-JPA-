@@ -37,10 +37,10 @@
 	href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
 	rel="stylesheet">
 <link
-	href="/Agenda_TelefonicaJPAA/css/index.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 <link
-	href="/Agenda_TelefonicaJPAA/css/agenda.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet"
@@ -49,7 +49,7 @@
 	crossorigin="anonymous">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<link href="../css/createAccount.css" rel="stylesheet" type="text/css" />
+<link href="../css/estilos.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -217,6 +217,92 @@
 		</div>
 
 	</section>
+	
+	
+	<footer class="page-footer font-small rgba(63, 81, 181, 0.7) rgba-indigo-strong">
+
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+					<!-- Contact details -->
+					<h5 class="font-weight-bold text-uppercase mb-4">Contactanos</h5>
+
+					<ul class="list-unstyled">
+						<li>
+							<p>
+								<i ></i> Cuenca - Ecuador
+							</p>
+						</li>
+						<li>
+							<p>
+								<a href="mailto:cuenta@deemail.com"><i
+									"></i> fvasquezf1@est.ups.edu.ec 
+							</p> </a>
+
+						</li>
+						
+					</ul>
+
+				</div>
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-2 col-lg-2 text-center mx-auto my-4 ">
+
+					<!-- Social buttons -->
+					<h5 class="font-weight-bold text-uppercase mb-4">Redes Sociales</h5>
+
+
+					<!-- Facebook -->
+					<a href="https://www.facebook.com/joel.vasquez.3133719"
+						target="_black" class="fb-ic"> <i
+						class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
+					</i>
+					</a>
+					<!--Instagram-->
+					<a href="https://www.instagram.com/joelv069/?hl=es-la" target="_black"
+						class="ins-ic"> <i
+						class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+
+					
+				</div>
+				<!-- Grid column -->
+
+
+
+			</div>
+			<!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+			© 2020 Copyright: <a href="https://mdbootstrap.com/"> Vasquez Fajardo Franklin Joel</a>
+		</div>
+		<!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+	
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script

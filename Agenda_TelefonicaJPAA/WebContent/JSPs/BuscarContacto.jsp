@@ -36,10 +36,10 @@
 	href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
 	rel="stylesheet">
 <link
-	href="/Agenda_TelefonicaJPAA/css/index.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 <link
-	href="/Agenda_TelefonicaJPAA/css/agenda.css"
+	href="/Agenda_TelefonicaJPAA/css/estilos.css"
 	rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet"
@@ -48,7 +48,7 @@
 	crossorigin="anonymous">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<link href="../css/createAccount.css" rel="stylesheet" type="text/css" />
+<link href="../css/estilos.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<!--Cabecera-->
@@ -107,15 +107,15 @@
 						
 						<div class="form-group">
 							<select id="cars" name="opcion" style="font-size: 15px;">
-							<option value="cedula">Cedula</option>
 							<option value="correo">Correo</option>
+							
 
 						</select> 
-						<input type="text" name="parametro" placeholder="Ingrese dato"
+						<input type="text" name="parametro" placeholder="Ingrese el Correo"
 							id="login-name" value="${parInval}"  style="font-size: 15px;">
 							
 							<input
-							class="boton" type="submit" name="Ingresar" value="Buscar"  style="font-size: 13px;"/>
+							class="busq" type="submit" name="Ingresar" value="Buscar"  style="font-size: 13px;"/>
 							
 						</div>
 						
@@ -136,7 +136,7 @@
 								<div class="table100-nextcols">
 									<table class="table">
 										
-										<thead class="while blue-text">
+										<thead class="while red-text">
 											<tr class="row100 head">
 												<th scope="col" style="font-size: 20px;">Numero Telefonico</th>
 												<th scope="col" style="font-size: 20px;">Tipo Telefono</th>

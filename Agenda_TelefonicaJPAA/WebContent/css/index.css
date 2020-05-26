@@ -1,33 +1,79 @@
 .fondo {
     height: 80vh;
-    background: url("../img/agenda.jpg");
+    background: url("../img/fondo.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin-bottom:2em;
+    margin-bottom:4em;
     background-repeat: no-repeat;
-	background-size: cover;
+   
+	
 	
 }
-.ancholetras {
-    top: 150px;
+
+.cuenta{
+	
+	position: absolute;
+    top: 4px;
+    right: 355%;
+    border-radius: 55px;
+	
+}
+
+.telf{
+	
+	position: absolute;
+    top: 5px;
+    left: 70%;
+    border-radius: 55px;
+	
+}
+
+.bus{
+	
+	position: absolute;
+    top: 125px;
+    right: 31%;
+    border-radius: 55px;
+	
+}
+
+.pag{
+	
+	
+	position: absolute;
+    top: 18px;
+    left: 05%;
+    border-radius: 55px;
+	width: 50%;
+}
+
+.busqueda {
+	
+	
+    width: 300px;
+    height: 10px;
     position: absolute;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+    top: 38%;
+    left: 63%;
+    transform: translate(-50%,-50%);
+    background:  rgba(105, 165, 235, 0.671);
     text-align: center;
+    border-radius: 55px;
+}
+.ancholetras {
+    top: 250px;
+    position: right;
+    width: 30%;
+    margin: right;
+    text-align: right;
 
 }
 
 .texto {
-    width: 80%;
-    margin: auto;
-     background: linear-gradient(to bottom, 
-       rgba(255, 255, 255, 0.1), 
-       rgba(61, 59, 59, 0.397), 
-	rgb(150, 34, 34)
-    );
+    width: 30%;
+    margin: 2px;
+    
 }
 .texto h2 {
     color: lightcyan;
@@ -66,7 +112,7 @@
 }
 
 .input-group.md-form.form-sm.form-1 input{
-  border: 2px solid #bdbdbd;
+  border: 1px solid #bdbdbd;
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
@@ -140,10 +186,7 @@ h4{
 	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
-	
-	
-	
-	
+
 	
 }
 .banner-2 h3{
@@ -179,3 +222,10 @@ h4{
 }
 
 
+background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0.5), 
+rgba(0, 0, 0, 0.5)
+);
+color: ghostwhite;
+transition: linear;
+}

@@ -241,7 +241,7 @@ public class ControladorRegistrar extends HttpServlet {
 				session.setAttribute("usuario", usu);
 
 				System.out.println(usu);
-				url = "/JSPs/.IniciarSesionjsp";
+				url = "/JSPs/IniciarSesion.jsp";
 
 			}
 

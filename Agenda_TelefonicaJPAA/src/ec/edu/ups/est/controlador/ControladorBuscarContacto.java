@@ -118,7 +118,7 @@ public class ControladorBuscarContacto extends HttpServlet {
 			}
 		}
 
-		request.getRequestDispatcher("JSPs/BuscarContacto.jsp").forward(request, response);
+		request.getRequestDispatcher("/JSPs/BuscarContacto.jsp").forward(request, response);
 	}
 
 }
